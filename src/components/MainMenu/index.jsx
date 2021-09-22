@@ -18,6 +18,12 @@ const MainMenu = () => {
               marginBottom: '.5rem',
             }}
           />
+          <Button
+            sx={{ background: 'linear-gradient(90deg, #f5ab15, #de810ee0)' }}
+            path={'/portfolio'}
+          >
+            Portfolio
+          </Button>
           <Button path={'https://github.com/toruki13?tab=repositories'}>
             Github
           </Button>
@@ -25,7 +31,6 @@ const MainMenu = () => {
             linkedin
           </Button>
           <Button path={'https://dev.to/tintaunicornio'}>Blog</Button>
-          <Button path={'/portfolio'}>Portfolio</Button>
         </Container>
       );
     } else {
@@ -46,8 +51,7 @@ const MainMenu = () => {
             linkedin
           </Button>
           <Button path={'/portfolio'}>Portfolio</Button>
-                    <Button path={'https://dev.to/tintaunicornio'}>Blog</Button>
-                    
+          <Button path={'https://dev.to/tintaunicornio'}>Blog</Button>
         </Container>
       );
     }

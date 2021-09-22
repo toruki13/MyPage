@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+/* import styled from 'styled-components'; */
 import Button from '../Button';
 const Header = () => {
   return <Button path={'/'}>Back</Button>;
@@ -6,4 +6,4 @@ const Header = () => {
 
 export default Header;
 
-const Container = styled.nav``;
+/* const Container = styled.nav``; */

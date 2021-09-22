@@ -4,7 +4,6 @@ import CardContent from '@mui/material/CardContent';
 import Button from '../Button';
 import styled from 'styled-components';
 import Typography from '@mui/material/Typography';
-import { isMobile } from 'react-device-detect';
 const cardData = [
   {
     title: 'SlackAlike',
